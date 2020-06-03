@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "company": "123 Design",
+        "phone": "2223-232-2322 "
+    },
+    {
+        "id": 2,
+        "name": "Kwame Jamoni",
+        "company": "Internet Solution",
+        "phone": "23435-2322 "
+    },
+    {
+        "id": 3,
+        "name": "Frank Adjei",
+        "company": "1st Digital Radio",
+        "phone": "2223-000-0023 "
+    },
+    {
+        "id": 4,
+        "name": "Moses Amedefu",
+        "company": "Help Sale",
+        "phone": "2223-232-2322 "
+    }
+]

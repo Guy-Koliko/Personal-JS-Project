@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="materialize.min.css"> -->
+    <link rel="stylesheet" href="css.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <title>Student Attendace Sheet</title>
+</head>
+
+<body>
+
+    <div class="left-container">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div id="main" class="card">
+                        <div class="card-content">
+                            <span class="card-title">Student Attendace Sheet</span>
+                            <div id="row">
+                                <form id="atnd-form">
+                                    <div class="input-field cal-s12">
+                                        <input type="text" name="names" id="names" required>
+                                        <label for="names">Full Name</label>
+                                        <div class="input-field cal-s12">
+                                            <input type="text" name="phone" id="phone" required>
+                                            <label for="phone">Phone Number</label>
+                                        </div>
+                                        <div class="input-field cal-s12">
+                                            <input type="text" name="index" id="index" required>
+                                            <label for="index">Index Number</label>
+                                        </div>
+
+                                    </div>
+                                    <input type="submit" value="Signed" class="btn">
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-container">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div id="main" class="card">
+                        <div class="card-action">
+                            <h5 id="task-title">Student Who Are Present</h5>
+                            <div class="input-field cal-s12">
+                                <input type="text" name="search" id="search">
+                                <label for="search">Student Search</label>
+                            </div>
+
+                            <div class="div-main">
+                                <table class="tbl-content">
+                                    <tr>
+                                        <th>
+                                            <h5 class="table-font">Full Name</h5>
+                                        </th>
+                                        <th>
+                                            <h5 class="table-font">Phone Number</h5>
+                                        </th>
+                                        <th>
+                                            <h5 class="table-font">Index Number</h5>
+                                        </th>
+                                    </tr>
+                            </div>
+                            <ul class="collection"></ul>
+
+                        </div>
+                        </table>
+
+                    </div>
+                    <a href="#" class="clear-tasks btn black">Clear Task</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- <script src="materialize.min.js"></script> -->
+
+    <script src="app.js"></script>
+</body>
+
+</html>
