@@ -1,0 +1,17 @@
+[
+    {
+        "type": "Comment for client 1",
+        "comment": "Trying will never kill you",
+        "id": 1
+    },
+    {
+        "type": "Comment for client 2",
+        "comment": "Trying will never kill you",
+        "id": 2
+    },
+    {
+        "type": "Comment for client 3",
+        "comment": "Trying will never kill you",
+        "id": 3
+    }
+]
